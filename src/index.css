@@ -1,0 +1,42 @@
+
+body{
+  background-color: #475368;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+h1{
+  text-align: center;
+  color: #9fafc9;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+                 padding-top: 20px;
+
+}
+.FlashCards{
+  box-shadow: 0 8px 6px -6px black;
+  background-color: #7b917c;
+  padding-top: 75px;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 125px;
+}
+.Buttons {
+  display:flex;
+  justify-content: center;
+  padding-top: 100px;
+  height: 50px;
+}
+
+.FlipButton, .NextButton, .Shuffle, .PreviousButton{
+  border: none;
+
+  box-shadow: 0 8px 6px -6px black;
+
+  padding: 10px;
+  font-size: 20px;
+  margin: auto;
+
+}
